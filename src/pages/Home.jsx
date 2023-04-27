@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "../components/Card";
-import { Card2 } from "../components/Card2";
 
 export const Home = () => {
   return (
@@ -71,7 +70,7 @@ export const Home = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 place-items-center gap-5">
         <Card />
         <Card />
-        <Card2 />
+        <Card />
       </div>
     </>
   );
