@@ -56,7 +56,7 @@ export const Navbar = () => {
               Contacto
             </Link>
           </nav>
-          <div className="md:col-span-2 flex items-center justify-center md:justify-end gap-4 text-xl">
+          <div className="md:col-span-2 flex items-center justify-center md:justify-end gap-4 text-xl py-3 md:py-0">
             <a href="#" target="_blank">
               <RiFacebookFill />
             </a>

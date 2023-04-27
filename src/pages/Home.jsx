@@ -1,8 +1,10 @@
 import React from "react";
+import { Card } from "../components/Card";
 
 export const Home = () => {
   return (
     <>
+      {/* Bienvenida */}
       <div className="">
         <div className="pb-20">
           <div className="mx-auto bg-gradient-to-l from-indigo-600 to-indigo-700 h-96 rounded-xl">
@@ -59,6 +61,16 @@ export const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <h3 className="text-5xl font-black leading-10 pb-5 text-indigo-700">
+        Mis Servicios
+      </h3>
+      {/* Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 place-items-center gap-5">
+        <Card />
+        <Card />
+        <Card />
       </div>
     </>
   );
