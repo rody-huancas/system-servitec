@@ -24,9 +24,11 @@ export const Navbar = () => {
   return (
     <>
       <header
-        className={`w-full fixed top-0 bg-white ${isScrolled && "shadow-lg"}`}
+        className={`w-full md:fixed md:top-0 bg-white ${
+          isScrolled && "shadow-lg"
+        }`}
       >
-        <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row gap-4 items-center justify-between">
+        <div className="max-w-[1200px] h-[100px] mx-auto flex flex-col md:flex-row gap-4 items-center justify-between">
           <Link to="/" className="w-[150px] md:w-[120px]">
             <img src="/images/servitec.PNG" alt="Logo Servitec" />
           </Link>
@@ -56,14 +58,26 @@ export const Navbar = () => {
               Contacto
             </Link>
           </nav>
-          <div className="md:col-span-2 flex items-center justify-center md:justify-end gap-4 text-xl py-3 md:py-0">
-            <a href="#" target="_blank">
+          <div className="md:col-span-2 flex items-center justify-center md:justify-end gap-4 py-3 md:py-0">
+            <a
+              href="#"
+              className="p-2 bg-blue-500 rounded-full text-white hover:bg-blue-700 transition-colors"
+              target="_blank"
+            >
               <RiFacebookFill />
             </a>
-            <a href="#" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=51975597994"
+              className="p-2 bg-green-500 rounded-full text-white hover:bg-green-700 transition-colors"
+              target="_blank"
+            >
               <RiWhatsappLine />
             </a>
-            <a href="#" target="_blank">
+            <a
+              href="#"
+              className="p-2 bg-pink-500 rounded-full text-white hover:bg-pink-700 transition-colors"
+              target="_blank"
+            >
               <RiInstagramLine />
             </a>
           </div>

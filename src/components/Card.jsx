@@ -3,20 +3,16 @@ import React from "react";
 export const Card = () => {
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-        <a href="#">
-          <img
-            className="rounded-t-lg"
-            src="https://flowbite.com/docs/images/blog/image-1.jpg"
-            alt=""
-          />
-        </a>
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-default">
+        <img
+          className="rounded-t-lg"
+          src="https://flowbite.com/docs/images/blog/image-1.jpg"
+          alt=""
+        />
         <div className="p-5">
-          <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-              Lorem ipsum dolor sit amet consectetur.
-            </h5>
-          </a>
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+            Lorem ipsum dolor sit amet consectetur.
+          </h5>
           <p className="mb-3 font-normal text-gray-700">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
             necessitatibus facere! Quis, odio? Iste, excepturi!

@@ -6,7 +6,7 @@ export const Layout = () => {
   return (
     <>
       <Navbar />
-      <main className="max-w-[1200px] mx-auto mt-[260px] md:mt-[150px]">
+      <main className="max-w-[1200px] mx-auto mt-[180px] md:mt-[150px] px-3 lg:px-0">
         <Outlet />
       </main>
 

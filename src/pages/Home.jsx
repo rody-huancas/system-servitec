@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "../components/Card";
+import { Card2 } from "../components/Card2";
 
 export const Home = () => {
   return (
@@ -11,7 +12,7 @@ export const Home = () => {
             <div className="mx-auto container w-full flex flex-col justify-center items-center">
               <div className="flex justify-center items-center flex-col">
                 <div className="mt-20">
-                  <h1 className="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-white">
+                  <h1 className="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-white text-center">
                     Bienvenidos a SERVITEC
                   </h1>
                 </div>
@@ -64,13 +65,13 @@ export const Home = () => {
       </div>
 
       <h3 className="text-5xl font-black leading-10 pb-5 text-indigo-700">
-        Mis Servicios
+        Nuestros Servicios
       </h3>
       {/* Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 place-items-center gap-5">
         <Card />
         <Card />
-        <Card />
+        <Card2 />
       </div>
     </>
   );
