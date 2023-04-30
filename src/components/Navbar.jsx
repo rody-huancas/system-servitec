@@ -24,7 +24,7 @@ export const Navbar = () => {
   return (
     <>
       <header
-        className={`w-full md:fixed md:top-0 bg-white ${
+        className={`w-full md:fixed md:top-0 bg-white z-50 ${
           isScrolled && "shadow-lg"
         }`}
       >
