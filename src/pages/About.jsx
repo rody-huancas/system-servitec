@@ -1,4 +1,5 @@
 import { FaTasks, FaUsers } from "react-icons/fa";
+import { GiTeamIdea } from "react-icons/gi";
 import { AboutDescription } from "../components/about/AboutDescription";
 import { AboutStatement } from "../components/about/AboutStatement";
 import { AboutCards } from "../components/about/AboutCards";
@@ -40,14 +41,14 @@ export const About = () => {
               {/* Card team */}
               <AboutCards
                 Icon={FaTasks}
-                title="Trabajo en equipo"
+                title="Tareas en equipo"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aliquam hic temporibus distinctio ratione qui recusandae
                     reiciendis excepturi assumenda repellat saepe?"
               />
               {/* Card Task */}
               <AboutCards
-                Icon={FaTasks}
+                Icon={GiTeamIdea}
                 title="Trabajo en equipo"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aliquam hic temporibus distinctio ratione qui recusandae
@@ -57,7 +58,7 @@ export const About = () => {
               {/* Card Talks */}
               <AboutCards
                 Icon={FaUsers}
-                title="Charlas"
+                title="Charlas Motivacionales"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aliquam hic temporibus distinctio ratione qui recusandae
                     reiciendis excepturi assumenda repellat saepe?"
