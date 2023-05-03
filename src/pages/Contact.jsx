@@ -7,9 +7,7 @@ export const Contact = () => {
 
   return (
     <>
-      {/* Container for demo purpose */}
       <div className="container my-24 px-6 mx-auto">
-        {/* Section: Design Block */}
         <section className="mb-32 text-gray-800">
           <div className="h-72 relative overflow-hidden rounded-2xl">
             <img

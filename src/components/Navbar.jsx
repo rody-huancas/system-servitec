@@ -25,7 +25,7 @@ export const Navbar = () => {
     <>
       <header
         className={`w-full md:fixed md:top-0 bg-white z-50 ${
-          isScrolled && "shadow-lg"
+          isScrolled && "md:shadow-lg"
         }`}
       >
         <div className="max-w-[1200px] h-[100px] mx-auto flex flex-col md:flex-row gap-4 items-center justify-between">
@@ -46,7 +46,7 @@ export const Navbar = () => {
               Nosotros
             </Link>
             <Link
-              to="/"
+              to="/services"
               className="xl:py-1 xl:px-2 rounded-lg hover:bg-gray-100 transition-colors"
             >
               Servicios
