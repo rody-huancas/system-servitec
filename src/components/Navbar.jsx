@@ -30,7 +30,7 @@ export const Navbar = () => {
       >
         <div className="max-w-[1200px] h-[100px] mx-auto flex flex-col md:flex-row gap-4 items-center justify-between">
           <Link to="/" className="w-[150px] md:w-[120px]">
-            <img src="/images/logo.jpg" alt="Logo Servitec" />
+            <img src="/images/logo.png" alt="Logo Servitec" />
           </Link>
           <nav className="flex items-center gap-4 justify-center">
             <Link
