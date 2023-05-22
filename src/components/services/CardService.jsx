@@ -6,7 +6,9 @@ export const CardService = ({ image, title, description }) => {
           <div className="w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8 bg-indigo-500 p-5">
             <img src={image} alt={title} />
           </div>
-          <h4 className="font-semibold text-xl text-dark mb-3">{title}</h4>
+          <h4 className="font-semibold text-center text-xl text-dark mb-3">
+            {title}
+          </h4>
           <p className="text-body-color text-justify">{description}</p>
         </div>
         <a

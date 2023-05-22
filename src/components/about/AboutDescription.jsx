@@ -18,7 +18,7 @@ export const AboutDescription = ({ title, subtitle, desciption }) => {
         <div className="w-full lg:w-6/12">
           <img
             className="lg:block w-full rounded-md"
-            src="https://img.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg?w=2000"
+            src="/about/about.png"
             alt="people discussing on board"
           />
         </div>

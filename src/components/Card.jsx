@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 export const Card = ({ url, title, description }) => {
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-default">
+      <div className="max-w-sm h-[530px] flex flex-col justify-between bg-white border border-gray-200 rounded-lg shadow cursor-default">
         <img className="rounded-t-lg object-cover" src={url} alt={title} />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">

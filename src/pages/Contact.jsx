@@ -2,8 +2,7 @@ import { ContactForm } from "../components/contactme/ContactForm";
 import { ContactGroupCards } from "../components/contactme/ContactGroupCards";
 
 export const Contact = () => {
-  const imageUrl =
-    "https://img.freepik.com/vector-gratis/particula-tecnologia-abstracta-realista-fondo_23-2148431735.jpg?w=996&t=st=1682827177~exp=1682827777~hmac=76904ea8ce99312cec32c92d8b60f5249bdfd5628398f860fdec3705a637c2cd";
+  const imageUrl = "/contact/contacto.png";
 
   return (
     <>

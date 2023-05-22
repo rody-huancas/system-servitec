@@ -11,28 +11,17 @@ export const About = () => {
         {/* Description */}
         <AboutDescription
           title="¿Quienes Somos?"
-          subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-          desciption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-            magnam tempora dolor nesciunt perspiciatis beatae saepe praesentium
-            culpa? Unde alias asperiores dolore deleniti natus corporis earum
-            praesentium dolor nihil consequuntur? Porro omnis laborum ipsa
-            voluptate itaque veniam aut mollitia explicabo ipsum architecto
-            obcaecati molestias nostrum dicta dolorem, nesciunt sit ea ab,
-            quidem earum animi provident tempora quibusdam? Porro, commodi
-            nostrum!"
+          subtitle="Líderes en soluciones tecnológicas personalizadas."
+          desciption="En Servitec, somos líderes en soluciones tecnológicas personalizadas para empresas y particulares. Con especialización en instalación de Mikrotik, configuración de OLT y software a medida, ofrecemos configuraciones expertas, implementaciones fluidas y resultados excepcionales. Nuestro equipo altamente capacitado se compromete a maximizar el rendimiento y la seguridad de tu infraestructura de red. Confía en nosotros para impulsar tu éxito digital."
         />
 
         <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
           {/* Misión */}
           <AboutStatement
-            title="Nuesta Misión"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at, iusto
-            voluptas maxime magni tenetur natus? Repellendus, nulla? Repellat
-            incidunt modi ipsa ex aspernatur distinctio tempore molestiae minus
-            voluptate inventore. Laboriosam, eum pariatur tempora eius eligendi
-            laborum impedit et vero possimus magni quos enim iusto dolorum
-            voluptatum perferendis, expedita excepturi repellat officiis dolore
-            accusantium quam beatae est laudantium dolores! Ipsum."
+            titleMision="Nuesta Misión"
+            descriptionMision="Nuestra misión en Servitec es proporcionar soluciones tecnológicas innovadoras y personalizadas que impulsen el éxito de nuestros clientes. Nos esforzamos por ser líderes en el sector, brindando servicios de instalación, configuración y optimización de redes y software, con un enfoque en la excelencia, la eficiencia y la satisfacción del cliente. Trabajamos con dedicación y profesionalismo para superar las expectativas y ser el socio tecnológico confiable que nuestros clientes necesitan para alcanzar sus objetivos empresariales."
+            titleVision="Nuesta Visión"
+            descriptionVision="En Servitec, nuestra visión es convertirnos en el referente líder en soluciones tecnológicas a nivel nacional. Buscamos ser reconocidos por nuestra excelencia, innovación y compromiso con la satisfacción del cliente. Nos esforzamos por estar a la vanguardia de las últimas tecnologías y tendencias del sector, ofreciendo soluciones personalizadas que impulsen el crecimiento y el éxito de nuestros clientes. Aspiramos a establecer relaciones a largo plazo, basadas en la confianza y la colaboración, para ser el socio estratégico confiable en el ámbito tecnológico. Nuestra visión es ser reconocidos como un equipo altamente competente y apasionado, capaz de superar las expectativas y marcar la diferencia en el mundo de la tecnología."
           />
 
           {/* Cards */}
@@ -41,27 +30,21 @@ export const About = () => {
               {/* Card team */}
               <AboutCards
                 Icon={FaTasks}
-                title="Tareas en equipo"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam hic temporibus distinctio ratione qui recusandae
-                    reiciendis excepturi assumenda repellat saepe?"
+                title="Diseño de soluciones"
+                description="Trabajamos en equipo para diseñar soluciones tecnológicas a medida. Utilizamos nuestra experiencia y conocimientos para crear configuraciones personalizadas que cumplan con los objetivos específicos de cada cliente."
               />
               {/* Card Task */}
               <AboutCards
                 Icon={GiTeamIdea}
-                title="Trabajo en equipo"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam hic temporibus distinctio ratione qui recusandae
-                    reiciendis excepturi assumenda repellat saepe?"
+                title="Análisis y consultoría"
+                description="Nos reunimos para analizar las necesidades y requerimientos de nuestros clientes, ofreciendo asesoramiento y recomendaciones expertas. Realizamos evaluaciones detalladas para comprender a fondo los desafíos y oportunidades de cada proyecto."
               />
 
               {/* Card Talks */}
               <AboutCards
                 Icon={FaUsers}
-                title="Charlas Motivacionales"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam hic temporibus distinctio ratione qui recusandae
-                    reiciendis excepturi assumenda repellat saepe?"
+                title="Capacitación y soporte"
+                description="Brindamos capacitación y soporte continuo a nuestros clientes. Nos aseguramos de que comprendan plenamente las soluciones implementadas y estén equipados con el conocimiento necesario para utilizarlas de manera efectiva."
               />
             </div>
           </div>

@@ -13,32 +13,32 @@ export const ContactGroupCards = () => {
           <ContactCard
             Icon={Medium}
             title="Soporte técnico"
-            email="soporte@correo.com"
-            number="+51 921 564 321"
+            email="danielvsquez@gmail.com"
+            number="+51 963 557 795"
             width=""
           />
           {/* Reportar error */}
           <ContactCard
             Icon={Bug}
             title="Reportar un error"
-            email="error@correo.com"
-            number="+51 921 564 321"
+            email="danielvsquez@gmail.com"
+            number="+51 963 557 795"
             width=""
           />
           {/* Solicitar información */}
           <ContactCard
             Icon={Info}
             title="Solicitar información"
-            email="info@correo.com"
-            number="+51 921 564 321"
+            email="danielvsquez@gmail.com"
+            number="+51 963 557 795"
             width=""
           />
           {/* Solicitar precios */}
           <ContactCard
             Icon={Price}
             title="Solicitar precios"
-            email="precios@correo.com"
-            number="+51 921 564 321"
+            email="danielvsquez@gmail.com"
+            number="+51 963 557 795"
             width="w-4"
           />
         </div>
