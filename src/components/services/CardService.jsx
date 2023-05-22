@@ -12,7 +12,7 @@ export const CardService = ({ image, title, description }) => {
           <p className="text-body-color text-justify">{description}</p>
         </div>
         <a
-          href="#"
+          href="https://api.whatsapp.com/send?phone=51963557795"
           className="w-1/2 py-3 text-center text-white font-medium rounded-lg bg-indigo-600 hover:bg-indigo-800 transition-colors"
         >
           Contáctame
