@@ -18,9 +18,9 @@ export const About = () => {
         <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
           {/* Misión */}
           <AboutStatement
-            titleMision="Nuesta Misión"
+            titleMision="Nuestra Misión"
             descriptionMision="Nuestra misión en Servitec es proporcionar soluciones tecnológicas innovadoras y personalizadas que impulsen el éxito de nuestros clientes. Nos esforzamos por ser líderes en el sector, brindando servicios de instalación, configuración y optimización de redes y software, con un enfoque en la excelencia, la eficiencia y la satisfacción del cliente. Trabajamos con dedicación y profesionalismo para superar las expectativas y ser el socio tecnológico confiable que nuestros clientes necesitan para alcanzar sus objetivos empresariales."
-            titleVision="Nuesta Visión"
+            titleVision="Nuestra Visión"
             descriptionVision="En Servitec, nuestra visión es convertirnos en el referente líder en soluciones tecnológicas a nivel nacional. Buscamos ser reconocidos por nuestra excelencia, innovación y compromiso con la satisfacción del cliente. Nos esforzamos por estar a la vanguardia de las últimas tecnologías y tendencias del sector, ofreciendo soluciones personalizadas que impulsen el crecimiento y el éxito de nuestros clientes. Aspiramos a establecer relaciones a largo plazo, basadas en la confianza y la colaboración, para ser el socio estratégico confiable en el ámbito tecnológico. Nuestra visión es ser reconocidos como un equipo altamente competente y apasionado, capaz de superar las expectativas y marcar la diferencia en el mundo de la tecnología."
           />
 
