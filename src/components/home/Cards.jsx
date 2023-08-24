@@ -5,7 +5,7 @@ export const Cards = () => {
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 place-items-center gap-5">
         <Card
-          url="/home/mikrotik.png"
+          url="/home/Captura.PNG"
           title="Instalación de Mikrotik"
           description="Nuestra instalación de Mikrotik ofrece soluciones eficientes y confiables para optimizar tu red. Obtén una configuración experta y personalizada que maximizará el rendimiento y la seguridad de tu infraestructura de red."
         />
